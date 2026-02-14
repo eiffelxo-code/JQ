@@ -1,5 +1,8 @@
 import React from 'react';
 import { AgentProfile, HeroCardData, ServiceCategory } from '../types';
+import mapCardImg from '../src/assets/images/map_card.png';
+import historyCardImg from '../src/assets/images/history_card.png';
+import serviceCardImg from '../src/assets/images/service_card.png';
 
 export const SCENIC_NAME = "云峰屯堡";
 export const WEATHER_INFO = {
@@ -93,7 +96,7 @@ export const HERO_CARDS: HeroCardData[] = [
     name: '云小途',
     tagline: '路线活地图',
     avatarUrl: IMG_GUIDE,
-    cardImageUrl: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=600&q=80',
+    cardImageUrl: mapCardImg,
     actions: [
       { label: '查看热力图', prompt: '请显示当前景区的游客热力图分布。' },
       { label: '避堵路线', prompt: '帮我规划一条避开拥堵的游览路线。' }
@@ -118,7 +121,7 @@ export const HERO_CARDS: HeroCardData[] = [
     name: '墨渊',
     tagline: '古今通晓',
     avatarUrl: IMG_STORY,
-    cardImageUrl: 'https://images.unsplash.com/photo-1542640244-7e672d6bd4e8?auto=format&fit=crop&w=600&q=80',
+    cardImageUrl: historyCardImg,
     actions: [
       { label: '讲个趣闻', prompt: '给我讲一个关于这里的有趣历史传说。' },
       { label: '历史问答', prompt: '考考我关于这里的历史知识吧。' }
@@ -168,7 +171,7 @@ export const HERO_CARDS: HeroCardData[] = [
     name: '暖暖',
     tagline: '贴心小棉袄',
     avatarUrl: IMG_SERVICE,
-    cardImageUrl: 'https://images.unsplash.com/photo-1621257929497-22687a744265?auto=format&fit=crop&w=600&q=80',
+    cardImageUrl: serviceCardImg,
     actions: [
       { label: '找洗手间', prompt: '请告诉我现在离我最近的洗手间在哪里？' },
       { label: '紧急呼叫', prompt: '我需要紧急帮助，请联系工作人员。' }
