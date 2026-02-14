@@ -1,0 +1,8 @@
+{
+  "name": "景区智能体",
+  "description": "A smart travel assistant for scenic areas with 3D digital human interaction.",
+  "requestFramePermissions": [
+    "microphone",
+    "geolocation"
+  ]
+}
